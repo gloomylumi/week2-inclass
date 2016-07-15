@@ -1,16 +1,16 @@
 header {
-  background-color: (255,115,15);
-  color: (255,215,94);
+  background-color: rgb(255,115,15);
+  color: rgb(255,215,94);
 }
 
 main {
-  background-color: 222,198,199;
-  color: (21,26,56) ;
+  background-color: rgb(222,198,199);
+  color: rgb(21,26,56) ;
 
 }
 
 footer {
-  background-color: (21,26,56);
-  color: (255,215,94);
+  background-color: rgb(21,26,56);
+  color: rgb(255,215,94);
 
 }
