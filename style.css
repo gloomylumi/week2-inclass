@@ -1,23 +1,64 @@
-header {
-  background-color: rgb(255,115,15);
-  color: rgb(255,215,94);
+/*Font-size reset and background color baseline*/
+html {
+  font-size: 62.5%;
+  background-color: #dcdcdc;
 }
 
-header h1 {
-  margin: 0;
-}
-
-main {
-  background-color: rgb(222,198,199);
-  color: rgb(21,26,56) ;
-}
-
-footer {
-  background-color: rgb(21,26,56);
-  color: rgb(255,215,94);
-}
-
+  /*Wrapper styling*/
 .wrapper {
   width: 600px;
   margin: auto;
 }
+
+header {
+  background-color: #E5682A;
+  color: #FFD75E;
+  height: 100px;
+}
+
+    /* Logo Text Formatting */
+header h1 {
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: Righteous;
+  font-size: 5rem;
+  text-shadow: 0rem .4rem 0rem rgba(133, 60, 8, 1), 0rem .6rem 0rem rgba(0, 0, 0, .75), 0rem 1.1rem 1.5rem rgba(0, 0, 0, 0.25), -0.2rem 1rem .6rem rgba(255, 217, 104, .5), 0.2rem 1rem .6rem rgba(255, 217, 104, .5), -0.2rem 0rem .6rem rgba(255, 217, 104, .35), 0.2rem 0rem .6rem rgba(255, 217, 104, .35);
+}
+
+main {
+  color: #1B213D ;
+  font-family: Muli;
+  font-size: 1.6rem;
+}
+
+footer {
+  background-color: #1B213D;
+  color: #FFD75E;
+  height: 100px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+footer div {
+  padding: 1rem;
+  margin-top: 0;
+}
+
+  /*Image styling*/
+img {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: .6rem;
+}
+
+#imagewrapper {
+  background-color: #1B213D;
+  width: 100%;
+}
+
+  /*Link Styling*/
+a:link {color: #E5682A; text-decoration: none;}
+a:visited {color: rgba(229, 104, 42, .75); text-decoration: none;}
+a:hover {color: #36D1CE;}
+a:active {color: #FFD968;}
